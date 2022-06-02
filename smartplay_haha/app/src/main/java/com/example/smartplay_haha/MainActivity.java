@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
 
         buttonHello.setOnClickListener(listener);
 
-        Bitmap bitmap = BitmapFactory.decodeResource(getResources(), R.drawable.stiv_2);
+        Bitmap bitmap = BitmapFactory.decodeResource(getResources(), R.drawable.stiv_stand_2);
         imageViewHello.setImageBitmap(Bitmap.createScaledBitmap(bitmap, 500, 700, false));
     }
 }

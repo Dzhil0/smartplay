@@ -12,23 +12,45 @@
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       android:orientation="horizontal">
-      <TextView
-          android:id="@+id/t1"
-          android:layout_width="match_parent"
-          android:layout_height="wrap_content"
-          android:layout_weight="1"
-          android:textAlignment="center"
-          android:textSize="24dp"
-          android:text="1"/>
-      <TextView
-          android:id="@+id/t2"
-          android:layout_width="match_parent"
-          android:layout_height="wrap_content"
-          android:layout_weight="1"
-          android:textAlignment="center"
-          android:textSize="24dp"
-          android:text="2"/>
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textAlignment="center"
+        android:textSize="24dp"
+        android:text="Stiv"/>
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textAlignment="center"
+        android:textSize="24dp"
+        android:text="Evil"/>
   </LinearLayout>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/image_view_hero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/right_life_7" />
+
+    <ImageView
+        android:id="@+id/image_veiw_evil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/left_life_7" />
+  </LinearLayout>
+
+
 
   <LinearLayout
       android:layout_width="match_parent"
@@ -42,7 +64,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        app:srcCompat="@drawable/stiv_1" />
+        app:srcCompat="@drawable/stiv_stand_1" />
 
     <ImageView
         android:id="@+id/villain"
@@ -53,7 +75,7 @@
   </LinearLayout>
 
   <TextView
-      android:id="@+id/tywuad"
+      android:id="@+id/qtext"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       android:textSize="24dp"
@@ -63,14 +85,14 @@
       android:layout_height="wrap_content"
       android:orientation="horizontal">
     <Button
-        android:id="@+id/iawdaw1"
+        android:id="@+id/button1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:textSize="24dp"
         android:text="1"/>
     <Button
-        android:id="@+id/iawdawdaw2"
+        android:id="@+id/button2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
@@ -82,14 +104,14 @@
       android:layout_height="wrap_content"
       android:orientation="horizontal">
     <Button
-        android:id="@+id/iawdawdaww1"
+        android:id="@+id/button3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:textSize="24dp"
         android:text="3"/>
     <Button
-        android:id="@+id/iawdawdaawdaw2"
+        android:id="@+id/button4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"

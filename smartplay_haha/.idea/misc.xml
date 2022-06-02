@@ -3,6 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/admin/AndroidStudioProjects/smartplay_haha/app/src/main/res/drawable/greenbackground.xml" value="0.124" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/smartplay_haha/app/src/main/res/drawable/redbackground.xml" value="0.1255" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/smartplay_haha/app/src/main/res/layout/activity_finish.xml" value="0.1" />
         <entry key="..\:/Users/admin/AndroidStudioProjects/smartplay_haha/app/src/main/res/layout/activity_game.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/admin/AndroidStudioProjects/smartplay_haha/app/src/main/res/layout/activity_main.xml" value="0.1" />
       </map>
