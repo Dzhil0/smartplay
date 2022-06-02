@@ -166,10 +166,10 @@ public class GameActivity extends AppCompatActivity {
 
     public void finish(){
         if(heroSteve.getHealth() > evilDevil.getHealth()){
-            onCreateDialog(heroSteve.getName(), R.drawable.stiv_damage);
+            newActiv(heroSteve.getName(), R.drawable.stiv_damage);
         }
         else {
-            onCreateDialog(evilDevil.getName(), R.drawable.evil_damage);
+            newActiv(evilDevil.getName(), R.drawable.evil_damage);
         }
     }
 
@@ -181,6 +181,7 @@ public class GameActivity extends AppCompatActivity {
     }
 
     public void openButtons(){
+        defaultColor();
         button1.setEnabled(true);
         button2.setEnabled(true);
         button3.setEnabled(true);
@@ -199,16 +200,14 @@ public class GameActivity extends AppCompatActivity {
         qText.setText(Questions.questionsList.get(currentQuestionPosition).getQuestion());
 
         openButtons();
-
         button1.setText(Questions.questionsList.get(currentQuestionPosition).getOption1());
         button2.setText(Questions.questionsList.get(currentQuestionPosition).getOption2());
         button3.setText(Questions.questionsList.get(currentQuestionPosition).getOption3());
         button4.setText(Questions.questionsList.get(currentQuestionPosition).getOption4());
-        defaultColor();
+
     }
 
-
-    public void onCreateDialog(String name, int id) {
+    public void newActiv(String name, int id) {
         Intent intent = new Intent(GameActivity.this, FinishActivity.class).putExtra("name", name).putExtra("id", id);
         startActivity(intent);
         this.onDestroy();
